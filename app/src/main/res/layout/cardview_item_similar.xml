@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clickable="true"
+    android:id="@+id/similar_item_view"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    cardview:cardCornerRadius="1dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/item_photo"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_product_highlights"/>
+        <LinearLayout
+            android:layout_margin="1dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/similar_item_title"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Item Title"
+                android:textColor="#2d2d2d"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/similar_item_shipping"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center|left"
+                    android:text="Shipping"
+                    />
+                <TextView
+                    android:id="@+id/similar_item_days_left"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center|left"
+                    android:text="Days Left"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/similar_item_price"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center|right"
+                android:text="Price"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

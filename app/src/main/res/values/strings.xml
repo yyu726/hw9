@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Product Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="keywordLabel">Keyword</string>
+    <string name="keywordPlaceholder">Enter Keyword</string>
+    <string name="categoryLabel">Category</string>
+    <string name="conditionLabel">Condition</string>
+    <string name="conditionNew">New</string>
+    <string name="conditionUsed">Used</string>
+    <string name="conditionUnspecified">Unspecified</string>
+    <string name="shippingLabel">Shipping Options</string>
+    <string name="shippingLocal">Local Pickup</string>
+    <string name="shippingFree">Free Shipping</string>
+    <string name="nearbySearchLabel">Enable Nearby Search</string>
+    <string name="nearbySearchPlaceholder">Miles from</string>
+    <string name="zipLabel">From</string>
+    <string name="zipInputPlaceholder">zip</string>
+    <string name="hereRadioLabel">Current Location</string>
+    <string name="buttonSearchLabel">Search</string>
+    <string name="buttonClearLabel">Clear</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="requiredFieldErrorMessage">Please enter mandatory field</string>
+    <string name="progressbarMessage">Searching Products...</string>
+    <string name="TAG">yyu726-hw9</string>
+    <string name="PREFERENCE_PATH">com.yyu726.hw9.preference</string>
+    <string name="PREFERENCE_IDSET">com.yyu726.hw9.preference.id</string>
+    <string name="PREFERENCE_ITEM">com.yyu726.hw9.preference.item</string>
+    <string name="PREFERENCE_DETAIL">com.yyu726.hw9.preference.detail</string>
+    <string name="PREFERENCE_PHOTOS">com.yyu726.hw9.preference.photos</string>
+    <string name="PREFERENCE_SIMILAR">com.yyu726.hw9.preference.similar</string>
+</resources>
